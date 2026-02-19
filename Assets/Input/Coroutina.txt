@@ -1,0 +1,1 @@
+Las corrutinas (coroutines) son "hilos ligeros" y patrones de diseño de concurrencia que permiten ejecutar tareas asíncronas de forma colaborativa, pausando y reanudando su ejecución sin bloquear el hilo principal. Son esenciales en Kotlin y Unity para gestionar operaciones largas (red, base de datos) eficientemente, mejorando la legibilidad y el rendimiento al evitar bloqueos. 

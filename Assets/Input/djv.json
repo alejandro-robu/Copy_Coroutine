@@ -1,0 +1,470 @@
+{
+    "SettingsVersion": "31", 
+    "djv::UI::Settings::AV": {
+        "AlphaBlend": "av_alpha_premultiplied", 
+        "Cineon": "", 
+        "DPX": {
+            "Endian": "dpx_endian_msb", 
+            "Version": "dpx_version_2_0"
+        }, 
+        "DefaultSpeed": "24", 
+        "FFmpeg": {
+            "ThreadCount": "4"
+        }, 
+        "IFF": "", 
+        "ImageFilterOptions": {
+            "Mag": "render_filter_nearest", 
+            "Min": "render_filter_linear"
+        }, 
+        "JPEG": {
+            "Quality": "90"
+        }, 
+        "OpenEXR": {
+            "Channels": "exr_channel_grouping_known", 
+            "Compression": "exr_compression_none", 
+            "DWACompressionLevel": "45", 
+            "ThreadCount": "4"
+        }, 
+        "PNG": "", 
+        "PPM": {
+            "Data": "ppm_type_binary"
+        }, 
+        "RLA": "", 
+        "SGI": "", 
+        "SwapInterval": "av_swap_interval_default", 
+        "TIFF": {
+            "Compression": "tiff_compression_lzw"
+        }, 
+        "Targa": "", 
+        "TextLCDRendering": "true", 
+        "TimeUnits": "time_units_timecode"
+    }, 
+    "djv::UI::Settings::ColorSpace": {
+        "Configs": [
+            {
+                "Display": "default", 
+                "FileColorSpaces": {
+                    "": "sRGB", 
+                    "Cineon": "Cineon", 
+                    "DPX": "Cineon", 
+                    "OpenEXR": "linear"
+                }, 
+                "FileName": "C:\\Program Files\\DJV2\\etc\\Color\\nuke-default\\config.ocio", 
+                "Name": "nuke-default", 
+                "View": "sRGB"
+            }, 
+            {
+                "Display": "sRGB", 
+                "FileColorSpaces": {
+                    "": "", 
+                    "OpenEXR": "lnh"
+                }, 
+                "FileName": "C:\\Program Files\\DJV2\\etc\\Color\\spi-anim\\config.ocio", 
+                "Name": "spi-anim", 
+                "View": "Film"
+            }, 
+            {
+                "Display": "sRGB", 
+                "FileColorSpaces": {
+                    "": "", 
+                    "Cineon": "lg10", 
+                    "DPX": "lg10", 
+                    "OpenEXR": "lnh"
+                }, 
+                "FileName": "C:\\Program Files\\DJV2\\etc\\Color\\spi-vfx\\config.ocio", 
+                "Name": "spi-vfx", 
+                "View": "Film"
+            }
+        ], 
+        "CurrentIndex": "0"
+    }, 
+    "djv::UI::Settings::FileBrowser": {
+        "FileSequences": "true", 
+        "ListViewHeaderSplit": [
+            "0.7", 
+            "0.8", 
+            "1"
+        ], 
+        "RecentPaths": [
+        ], 
+        "ReverseSort": "false", 
+        "Shortcuts": [
+            {
+                "BaseName": "Alumno", 
+                "DirectoryName": "C:\\Users\\", 
+                "Extension": "", 
+                "Number": ""
+            }, 
+            {
+                "BaseName": "Desktop", 
+                "DirectoryName": "C:\\Users\\Alumno\\", 
+                "Extension": "", 
+                "Number": ""
+            }, 
+            {
+                "BaseName": "Documents", 
+                "DirectoryName": "C:\\Users\\Alumno\\", 
+                "Extension": "", 
+                "Number": ""
+            }, 
+            {
+                "BaseName": "Downloads", 
+                "DirectoryName": "C:\\Users\\Alumno\\", 
+                "Extension": "", 
+                "Number": ""
+            }
+        ], 
+        "ShowHidden": "false", 
+        "Sort": "directory_list_sort_name", 
+        "SortDirectoriesFirst": "true", 
+        "ThumbnailSize": "200 100", 
+        "ViewType": "ui_view_type_tiles"
+    }, 
+    "djv::UI::Settings::Font": {
+        "LocaleFonts": {
+            "Default": "Noto Sans", 
+            "ja": "Noto Sans CJK JP", 
+            "ko": "Noto Sans CJK KR", 
+            "zh": "Noto Sans CJK SC"
+        }
+    }, 
+    "djv::UI::Settings::General": {
+        "CurrentLocale": "en"
+    }, 
+    "djv::UI::Settings::IO": {
+        "ThreadCount": "4"
+    }, 
+    "djv::UI::Settings::Style": {
+        "Brightness": "1", 
+        "Contrast": "1", 
+        "CurrentMetrics": "style_metrics_medium", 
+        "CurrentPalette": "style_palette_dark", 
+        "Metrics": {
+            "style_metrics_extra_large": {
+                "Roles": {
+                    "ui_metrics_role_border": "2", 
+                    "ui_metrics_role_dialog": "800", 
+                    "ui_metrics_role_drag": "40", 
+                    "ui_metrics_role_font_header": "44", 
+                    "ui_metrics_role_font_large": "36", 
+                    "ui_metrics_role_font_medium": "24", 
+                    "ui_metrics_role_font_small": "20", 
+                    "ui_metrics_role_font_title": "64", 
+                    "ui_metrics_role_handle": "20", 
+                    "ui_metrics_role_icon": "48", 
+                    "ui_metrics_role_icon_mini": "16", 
+                    "ui_metrics_role_icon_small": "32", 
+                    "ui_metrics_role_margin": "20", 
+                    "ui_metrics_role_margin_dialog": "100", 
+                    "ui_metrics_role_margin_inside": "6", 
+                    "ui_metrics_role_margin_large": "40", 
+                    "ui_metrics_role_margin_small": "10", 
+                    "ui_metrics_role_menu": "1200", 
+                    "ui_metrics_role_move": "20", 
+                    "ui_metrics_role_none": "0", 
+                    "ui_metrics_role_scroll_area": "400", 
+                    "ui_metrics_role_scroll_bar": "30", 
+                    "ui_metrics_role_scroll_bar_small": "20", 
+                    "ui_metrics_role_scrub": "20", 
+                    "ui_metrics_role_search_box": "200", 
+                    "ui_metrics_role_shadow": "40", 
+                    "ui_metrics_role_shadow_small": "20", 
+                    "ui_metrics_role_slider": "100", 
+                    "ui_metrics_role_spacing": "20", 
+                    "ui_metrics_role_spacing_large": "80", 
+                    "ui_metrics_role_spacing_small": "10", 
+                    "ui_metrics_role_swatch": "100", 
+                    "ui_metrics_role_swatch_small": "32", 
+                    "ui_metrics_role_text_column": "400", 
+                    "ui_metrics_role_text_column_large": "600", 
+                    "ui_metrics_role_tooltip_offset": "20"
+                }
+            }, 
+            "style_metrics_large": {
+                "Roles": {
+                    "ui_metrics_role_border": "2", 
+                    "ui_metrics_role_dialog": "600", 
+                    "ui_metrics_role_drag": "30", 
+                    "ui_metrics_role_font_header": "33", 
+                    "ui_metrics_role_font_large": "27", 
+                    "ui_metrics_role_font_medium": "18", 
+                    "ui_metrics_role_font_small": "15", 
+                    "ui_metrics_role_font_title": "48", 
+                    "ui_metrics_role_handle": "15", 
+                    "ui_metrics_role_icon": "36", 
+                    "ui_metrics_role_icon_mini": "12", 
+                    "ui_metrics_role_icon_small": "24", 
+                    "ui_metrics_role_margin": "15", 
+                    "ui_metrics_role_margin_dialog": "75", 
+                    "ui_metrics_role_margin_inside": "5", 
+                    "ui_metrics_role_margin_large": "30", 
+                    "ui_metrics_role_margin_small": "8", 
+                    "ui_metrics_role_menu": "900", 
+                    "ui_metrics_role_move": "15", 
+                    "ui_metrics_role_none": "0", 
+                    "ui_metrics_role_scroll_area": "300", 
+                    "ui_metrics_role_scroll_bar": "23", 
+                    "ui_metrics_role_scroll_bar_small": "15", 
+                    "ui_metrics_role_scrub": "15", 
+                    "ui_metrics_role_search_box": "150", 
+                    "ui_metrics_role_shadow": "30", 
+                    "ui_metrics_role_shadow_small": "15", 
+                    "ui_metrics_role_slider": "75", 
+                    "ui_metrics_role_spacing": "15", 
+                    "ui_metrics_role_spacing_large": "60", 
+                    "ui_metrics_role_spacing_small": "8", 
+                    "ui_metrics_role_swatch": "75", 
+                    "ui_metrics_role_swatch_small": "24", 
+                    "ui_metrics_role_text_column": "300", 
+                    "ui_metrics_role_text_column_large": "450", 
+                    "ui_metrics_role_tooltip_offset": "15"
+                }
+            }, 
+            "style_metrics_medium": {
+                "Roles": {
+                    "ui_metrics_role_border": "1", 
+                    "ui_metrics_role_dialog": "400", 
+                    "ui_metrics_role_drag": "20", 
+                    "ui_metrics_role_font_header": "22", 
+                    "ui_metrics_role_font_large": "18", 
+                    "ui_metrics_role_font_medium": "12", 
+                    "ui_metrics_role_font_small": "10", 
+                    "ui_metrics_role_font_title": "32", 
+                    "ui_metrics_role_handle": "10", 
+                    "ui_metrics_role_icon": "24", 
+                    "ui_metrics_role_icon_mini": "8", 
+                    "ui_metrics_role_icon_small": "16", 
+                    "ui_metrics_role_margin": "10", 
+                    "ui_metrics_role_margin_dialog": "50", 
+                    "ui_metrics_role_margin_inside": "3", 
+                    "ui_metrics_role_margin_large": "20", 
+                    "ui_metrics_role_margin_small": "5", 
+                    "ui_metrics_role_menu": "600", 
+                    "ui_metrics_role_move": "10", 
+                    "ui_metrics_role_none": "0", 
+                    "ui_metrics_role_scroll_area": "200", 
+                    "ui_metrics_role_scroll_bar": "15", 
+                    "ui_metrics_role_scroll_bar_small": "10", 
+                    "ui_metrics_role_scrub": "10", 
+                    "ui_metrics_role_search_box": "100", 
+                    "ui_metrics_role_shadow": "20", 
+                    "ui_metrics_role_shadow_small": "10", 
+                    "ui_metrics_role_slider": "50", 
+                    "ui_metrics_role_spacing": "10", 
+                    "ui_metrics_role_spacing_large": "40", 
+                    "ui_metrics_role_spacing_small": "5", 
+                    "ui_metrics_role_swatch": "50", 
+                    "ui_metrics_role_swatch_small": "16", 
+                    "ui_metrics_role_text_column": "200", 
+                    "ui_metrics_role_text_column_large": "300", 
+                    "ui_metrics_role_tooltip_offset": "10"
+                }
+            }, 
+            "style_metrics_small": {
+                "Roles": {
+                    "ui_metrics_role_border": "1", 
+                    "ui_metrics_role_dialog": "300", 
+                    "ui_metrics_role_drag": "15", 
+                    "ui_metrics_role_font_header": "17", 
+                    "ui_metrics_role_font_large": "14", 
+                    "ui_metrics_role_font_medium": "9", 
+                    "ui_metrics_role_font_small": "8", 
+                    "ui_metrics_role_font_title": "24", 
+                    "ui_metrics_role_handle": "8", 
+                    "ui_metrics_role_icon": "18", 
+                    "ui_metrics_role_icon_mini": "6", 
+                    "ui_metrics_role_icon_small": "12", 
+                    "ui_metrics_role_margin": "8", 
+                    "ui_metrics_role_margin_dialog": "38", 
+                    "ui_metrics_role_margin_inside": "3", 
+                    "ui_metrics_role_margin_large": "15", 
+                    "ui_metrics_role_margin_small": "4", 
+                    "ui_metrics_role_menu": "450", 
+                    "ui_metrics_role_move": "8", 
+                    "ui_metrics_role_none": "0", 
+                    "ui_metrics_role_scroll_area": "150", 
+                    "ui_metrics_role_scroll_bar": "12", 
+                    "ui_metrics_role_scroll_bar_small": "8", 
+                    "ui_metrics_role_scrub": "8", 
+                    "ui_metrics_role_search_box": "75", 
+                    "ui_metrics_role_shadow": "15", 
+                    "ui_metrics_role_shadow_small": "8", 
+                    "ui_metrics_role_slider": "38", 
+                    "ui_metrics_role_spacing": "8", 
+                    "ui_metrics_role_spacing_large": "30", 
+                    "ui_metrics_role_spacing_small": "4", 
+                    "ui_metrics_role_swatch": "38", 
+                    "ui_metrics_role_swatch_small": "12", 
+                    "ui_metrics_role_text_column": "150", 
+                    "ui_metrics_role_text_column_large": "225", 
+                    "ui_metrics_role_tooltip_offset": "8"
+                }
+            }
+        }, 
+        "Palettes": {
+            "style_palette_dark": {
+                "DisabledMult": "0.65", 
+                "Roles": {
+                    "ui_color_role_background": "av_image_type_rgba_f32 0.18 0.18 0.18 1", 
+                    "ui_color_role_background_bellows": "av_image_type_rgba_f32 0.3 0.3 0.3 1", 
+                    "ui_color_role_background_header": "av_image_type_rgba_f32 0.4 0.4 0.4 1", 
+                    "ui_color_role_background_tool_bar": "av_image_type_rgba_f32 0.35 0.35 0.35 1", 
+                    "ui_color_role_border": "av_image_type_rgba_f32 0.25 0.25 0.25 1", 
+                    "ui_color_role_border_button": "av_image_type_rgba_f32 0.49 0.49 0.49 1", 
+                    "ui_color_role_button": "av_image_type_rgba_f32 0.4 0.4 0.4 1", 
+                    "ui_color_role_cached": "av_image_type_rgba_f32 0.32 0.58 0.18 1", 
+                    "ui_color_role_checked": "av_image_type_rgba_f32 0.58 0.32 0.18 1", 
+                    "ui_color_role_foreground": "av_image_type_rgba_f32 1 1 1 1", 
+                    "ui_color_role_foreground_dim": "av_image_type_rgba_f32 0.67 0.67 0.67 1", 
+                    "ui_color_role_handle": "av_image_type_rgba_f32 0.58 0.32 0.18 1", 
+                    "ui_color_role_hovered": "av_image_type_rgba_f32 1 1 1 0.06", 
+                    "ui_color_role_none": "av_image_type_rgba_f32 0 0 0 0", 
+                    "ui_color_role_overlay": "av_image_type_rgba_f32 0 0 0 0.7", 
+                    "ui_color_role_overlay_light": "av_image_type_rgba_f32 0 0 0 0.7", 
+                    "ui_color_role_pressed": "av_image_type_rgba_f32 1 1 1 0.18", 
+                    "ui_color_role_shadow": "av_image_type_rgba_f32 0 0 0 0.16", 
+                    "ui_color_role_text_focus": "av_image_type_rgba_f32 0.7 0.5 0.2 1", 
+                    "ui_color_role_tooltip_background": "av_image_type_rgba_f32 1 1 0.75 1", 
+                    "ui_color_role_tooltip_foreground": "av_image_type_rgba_f32 0 0 0 1", 
+                    "ui_color_role_trough": "av_image_type_rgba_f32 0.15 0.15 0.15 1"
+                }
+            }, 
+            "style_palette_light": {
+                "DisabledMult": "0.5", 
+                "Roles": {
+                    "ui_color_role_background": "av_image_type_rgba_f32 0.92 0.92 0.92 1", 
+                    "ui_color_role_background_bellows": "av_image_type_rgba_f32 0.85 0.85 0.85 1", 
+                    "ui_color_role_background_header": "av_image_type_rgba_f32 0.8 0.8 0.8 1", 
+                    "ui_color_role_background_tool_bar": "av_image_type_rgba_f32 0.88 0.88 0.88 1", 
+                    "ui_color_role_border": "av_image_type_rgba_f32 0.65 0.65 0.65 1", 
+                    "ui_color_role_border_button": "av_image_type_rgba_f32 0.85 0.85 0.85 1", 
+                    "ui_color_role_button": "av_image_type_rgba_f32 1 1 1 1", 
+                    "ui_color_role_cached": "av_image_type_rgba_f32 0.69 0.89 0.76 1", 
+                    "ui_color_role_checked": "av_image_type_rgba_f32 0.69 0.76 0.89 1", 
+                    "ui_color_role_foreground": "av_image_type_rgba_f32 0 0 0 1", 
+                    "ui_color_role_foreground_dim": "av_image_type_rgba_f32 0.5 0.5 0.5 1", 
+                    "ui_color_role_handle": "av_image_type_rgba_f32 0.49 0.66 0.89 1", 
+                    "ui_color_role_hovered": "av_image_type_rgba_f32 0 0 0 0.06", 
+                    "ui_color_role_none": "av_image_type_rgba_f32 0 0 0 0", 
+                    "ui_color_role_overlay": "av_image_type_rgba_f32 0 0 0 0.7", 
+                    "ui_color_role_overlay_light": "av_image_type_rgba_f32 1 1 1 0.7", 
+                    "ui_color_role_pressed": "av_image_type_rgba_f32 0 0 0 0.1", 
+                    "ui_color_role_shadow": "av_image_type_rgba_f32 0 0 0 0.12", 
+                    "ui_color_role_text_focus": "av_image_type_rgba_f32 0.49 0.66 0.89 1", 
+                    "ui_color_role_tooltip_background": "av_image_type_rgba_f32 1 1 0.75 1", 
+                    "ui_color_role_tooltip_foreground": "av_image_type_rgba_f32 0 0 0 1", 
+                    "ui_color_role_trough": "av_image_type_rgba_f32 0.95 0.95 0.95 1"
+                }
+            }
+        }
+    }, 
+    "djv::UI::Settings::UI": {
+        "Tooltips": "true"
+    }, 
+    "djv::ViewApp::ApplicationSettings": {
+        "SettingsBellows": {
+        }
+    }, 
+    "djv::ViewApp::ColorPickerSettings": {
+        "WidgetGeom": {
+        }, 
+        "applyColorOperations": "true", 
+        "applyColorSpace": "true", 
+        "lockType": "av_image_type_none", 
+        "pickerPos": "0 0", 
+        "sampleSize": "1"
+    }, 
+    "djv::ViewApp::FileSettings": {
+        "AutoDetectSequences": "true", 
+        "CacheEnabled": "true", 
+        "CacheMax": "4", 
+        "OpenMax": "16", 
+        "RecentFiles": [
+        ], 
+        "RecentFilesMax": "10", 
+        "SequencesFirstFrame": "true", 
+        "WidgetGeom": {
+        }
+    }, 
+    "djv::ViewApp::ImageSettings": {
+        "AspectRatio": "ui_aspect_ratio_from_source", 
+        "ColorSpaceBellows": {
+        }, 
+        "ControlsBellows": {
+        }, 
+        "Rotate": "ui_image_rotate_0", 
+        "WidgetGeom": {
+        }
+    }, 
+    "djv::ViewApp::InputSettings": {
+        "ScrollWheelSpeed": "settings_scroll_wheel_slow"
+    }, 
+    "djv::ViewApp::MagnifySettings": {
+        "Magnify": "2", 
+        "MagnifyPos": "0 0", 
+        "WidgetGeom": {
+        }
+    }, 
+    "djv::ViewApp::NUXSettings": {
+        "NUX": "false"
+    }, 
+    "djv::ViewApp::PlaybackSettings": {
+        "CustomSpeed": "1/1", 
+        "PIP": "true", 
+        "PlayEveryFrame": "false", 
+        "PlaybackMode": "playback_loop", 
+        "PlaybackSpeed": "playback_speed_default", 
+        "StartPlayback": "false"
+    }, 
+    "djv::ViewApp::ToolSettings": {
+        "DebugBellowsState": {
+        }, 
+        "InfoBellowsState": "true", 
+        "MessagesPopup": "true", 
+        "WidgetGeom": {
+        }
+    }, 
+    "djv::ViewApp::ViewSettings": {
+        "BackgroundOptions": {
+            "Background": "view_background_solid", 
+            "Border": "false", 
+            "BorderColor": "av_image_type_l_f32 0.8", 
+            "BorderWidth": "2", 
+            "CheckersColors0": "av_image_type_l_f32 0.6", 
+            "CheckersColors1": "av_image_type_l_f32 0.4", 
+            "CheckersSize": "20", 
+            "Color": "av_image_type_rgba_f32 0 0 0 1"
+        }, 
+        "BellowsState": {
+        }, 
+        "GridOptions": {
+            "Color": "av_image_type_rgba_f32 0 0 0 0.5", 
+            "Enabled": "false", 
+            "Labels": "view_grid_labels_x_y", 
+            "LabelsColor": "av_image_type_rgba_f32 1 1 1 0.65", 
+            "Size": "100"
+        }, 
+        "HUDOptions": {
+            "Background": "hud_background_overlay", 
+            "Color": "av_image_type_rgba_f32 1 1 1 1", 
+            "Enabled": "false"
+        }, 
+        "Lock": "view_lock_fill", 
+        "WidgetGeom": {
+        }
+    }, 
+    "djv::ViewApp::WindowSettings": {
+        "AutoHide": "true", 
+        "BackgroundImage": "C:\\Program Files\\DJV2\\etc\\Icons\\djv-tshirt-v02.png", 
+        "BackgroundImageColorize": "true", 
+        "BackgroundImageScale": "false", 
+        "FloatOnTop": "false", 
+        "FullScreen": "false", 
+        "FullScreenMonitor": "0", 
+        "Maximize": "true", 
+        "RestorePos": "false", 
+        "RestoreSize": "true", 
+        "WindowPos": "112 135", 
+        "WindowSize": "1280 720"
+    }
+}
